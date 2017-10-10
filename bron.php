@@ -6,8 +6,9 @@
 </head>
 <body>
 <header>
- <?php include 'index.php' ?>
+ <?php include 'header.php' ?>
 </header>
 <input type="button" name="nubex" value="Nubex" />
 </body>
+<?php include 'footer.php' ?>
 </html>

@@ -2,47 +2,83 @@
 <html>
 <head>
 <title>Фотостудия "бла-бла". Главная.</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="all" />
 <link rel="stylesheet" href="style.css" type="text/css">
+<!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- FlexSlider -->
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade"
+    });
+	
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+  });
+</script>
+ 
+			<header>
+				
+   <?php include 'header.php' ?>
+            </header>  
 </head>
 <body>
-<!-- <h2>Меню:</h2>
-<a href="index.html">Всё о слонах.</a>
-<a href="elephant.html">Купить слона.</a>
-<a href="elephant1.html">Взять слона на прокат.</a>
-<div id="navigation">
-    <table id="menu">
-        <tr>
-            <td><a href="index.php"  title="">Главная</a></td>
-            <td>
-			<select>
-  <option>Пункт 1</option>
-  <option>Пункт 2</option>
-</select>
-			</td>
-            <td><a href="about.php"  title="">Обо мне</a></td>
-            <td><a href="book.php"  title="">Записаться</a></td>
-            <td><a href="contacts.php"  title="">Контакты</a></td>
-        </tr>
-    </table>
+<div class="container">
+     
+     <div class="slider_container">
+		<div class="flexslider">
+	      <ul class="slides">
+	    	<li>
+	    		<img src="images/slider/slide1.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><h2>Зал "Industrial"</h2></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<img src="images/slider/slide2.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     <div class="caption_title_line"><h2>Зал "Casual"</h2></div>
+                </div>
+	    	</li>
+	    	<li>
+	    		<img src="images/slider/slide4.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                   <div class="caption_title_line"><h2>Зал "Casual"</h2></div>
+                </div>
+	    	</li>
+			<li>
+	    		<img src="images/slider/slide3.jpg" alt="" title=""/>
+	    		<div class="flex-caption">
+                     
+					   <div class="caption_title_line"><h2>Зал "Nude"</h2></div>
+                </div>
+	    	</li>
+	    	
+	    </ul>
+	  </div>
+   </div>
+    </div>  
 </div>
--->
-<header>
-  <a href="" class="logo">Фотостудия "бла-бла"</a>
-  <nav>
-      <ul class="topmenu">
-        <li><a href="index.php">Главная</a></li>
-        <li><a href="" class="submenu-link">О студии</a>
-          <ul class="submenu">
-            <li><a href="zagluschka.php">Оборудование</a></li>
-            <li><a href="">Правила студии</a></li>
-          </ul>
-        </li>
-		 <li><a href="zagluschka.php">Интерьеры и цены</a></li>
-        <li><a href="bron.php">Бронирование</a></li>
-        <li><a href="zagluschka.php">Контакты</a></li>
-      </ul>
-    </nav>
-</header>
+
+
+
 
 </body>
+<?php include 'footer.php' ?>
 </html>
