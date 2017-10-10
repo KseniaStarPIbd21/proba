@@ -48,10 +48,10 @@ html[xmlns] .slides {display: block;}
 /* Media Queries
 /*-----------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width:200px)and (max-width: 1000px) {
 .slider_container{ width:90%; margin:0 0 0 2%; clear:both; background:none; padding:30px 0 0 0;}
 .flexslider {width: 100%; margin: 0; padding:0 0 30px 0;background:none;}
-.flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: absolute; right:-10px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: relative; right:-10px; cursor: pointer; text-indent: -9999px;}
 .flex-direction-nav li a.next {background:url(images/next.png) no-repeat center; bottom:85px;}
 .flex-direction-nav li a.prev {background:url(images/prev.png) no-repeat center;bottom:40px;}
 .flex-caption { display:none;}

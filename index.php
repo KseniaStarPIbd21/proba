@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<link rel="icon" type="image/png" href="images/favicon.png" />
 <title>Фотостудия "бла-бла". Главная.</title>
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -37,6 +38,33 @@
 				
    <?php include 'header.php' ?>
             </header>  
+			<script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#toTop').fadeIn();
+ 
+} else {
+ 
+$('#toTop').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#toTop').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+</script>
 </head>
 <body>
 <div class="container">
@@ -76,9 +104,9 @@
     </div>  
 </div>
 
-
+<?php include 'footer.php' ?>
 
 
 </body>
-<?php include 'footer.php' ?>
+
 </html>
