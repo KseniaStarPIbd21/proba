@@ -6,9 +6,10 @@
 </head>
 <body>
 <header>
- <?php include 'index.php' ?>
+ <?php include 'header.php' ?>
  
 </header>
 <p>Данная страница пока находится в разработке. </p>
 </body>
+<?php include 'footer.php' ?>
 </html>

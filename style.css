@@ -1,120 +1,3 @@
-body {
-    background: #CAFFCA;
-
-    color: #CAFFCA;
-    font-family: DINPro Light, sans-serif;
-    font-size: 14px;
-    position: relative;
-    margin: 0;
-    max-width: 100%; 
-    /* padding-right: 310px;*/
-}
-/*
-a {color:#000000; font-weight: bold;}
-a:hover {color:#ff0000; font-weight: bold; text-decoration:none}
-h1 {color: #0000ff; font-size:18px}
-h2 {color: #ff00ff; font-size:16px}
-*/
-
-#header h1 {
-    background: #191970;
-    color: #191970;
-    width: 100%;
-    height: 10%;
-    margin-bottom: 0;
-    font-size: 30px;
-    letter-spacing: 1pt;
-
-}
-#logo a {
-
-    text-decoration: none;
-    color: #CAFFCA;
-
-}
-#a {
-    color: #948f8f;
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 1%;
-    letter-spacing: 2pt;
-    font-size: 15px;
-}
-
-#container {
-    background: #800000;
-    margin: auto auto;
-    text-align: center;
-    width: 100%;
-    height: 400px;
-}
-
-#navigation {
-    background: #800000;
-    font-family: DINPro Light, sans-serif;
-    width: 100%;
-    height: 25px;
-	position: relative;
-  /*  margin-bottom: 2%;*/
-    font-size: 15px;
-
-
-}
-#menu a {
-    width: 200px;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    color: #948f8f;
-    font-size: 14px;
-    margin-left: 50%; 
-
-}
-
-#menu a:hover {
-    color: #800000;
-
-}
-
-
-#content {
-    background:#800000;
-    float: right;
-    width: 100%;
-    height: 800px;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-crop {
-
-    background-position-x : 50%;
-    background-position-y : 50%;
-}
-#footer {
-    background: #800000;    
-    width: 100%;
-    height:60px;
-    margin-top: 2%;
-    position:relative;
-
-}
-#rights{
-    
-    padding-top: 30px;
-    text-align: center;    
-}
-#clear {
-    clear: both;
-}
-
-#pagehead  {  
-
-    color: #800000;    
-    font-size: 25px;
-
-}
 
 * {box-sizing: border-box;}
 body {
@@ -141,6 +24,28 @@ header a {
   padding: 20px 0;
   text-align: center;
 }
+#footer {
+  background:#D5B45B;
+  color:#191970	;
+  padding-top: 15px;
+  text-align: center; 
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  
+}
+
+#content {
+    background:#f2f2f2;
+    float: right;
+    width: 100%;
+    height: 576px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+} 
 p {
 	color: #D5B45B; 
 	font-size:34px;
@@ -155,6 +60,7 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+
 .topmenu > li {
   width: 20%;
   float: left;
@@ -172,7 +78,7 @@ nav ul {
 .topmenu > li:hover > a, .submenu li:hover a {color: #D5B45B;}
 
 .submenu-link:after {
-  content: "\f107";
+ 
   font-family: "FontAwesome";
   color: inherit;
   margin-left: 10px;
@@ -201,3 +107,7 @@ nav ul {
   opacity: 1;
   transform: scaleY(1);
 }
+
+
+
+
