@@ -6,7 +6,7 @@
         <li><a href="zagluschka.php" class="submenu-link">О студии</a>
           <ul class="submenu">
             <li><a href="zagluschka.php">Оборудование</a></li>
-            <li><a href="zagluschka.php">Правила студии</a></li>
+            <li><a href="rules.php">Правила студии</a></li>
           </ul>
         </li>
 		 <li><a href="zagluschka.php">Интерьеры и цены</a></li>

@@ -3,10 +3,10 @@ http://www.freshdesignweb.com/fashion-responsive-slider-tutorial.html
 */
 /* Slider
 /*-----------------------------------------------------------------------------------*/
-.slider_container{ width:920px; margin:auto; clear:both; background:url(images/shadow_top.png) no-repeat top center; padding:30px 0 0 0;}
+.slider_container{  width:920px; margin:auto; clear:both; background:url(images/shadow_top.png) no-repeat top center; padding:30px 0 0 0;}
 .flex-caption{ position: absolute; right:11px; bottom:20px;}
-.caption_title_line{ width:450px; height:75px; padding:5px 15px 10px 15px;background:url(images/slider_caption_bg.png) repeat;color: #303030;}
-.flex-caption h2{ color:#303030;font-size:20px; padding:5px 0 5px 0; margin:0px;font-family: 'Ovo', serif;}
+.caption_title_line{ width:450px; height:75px; background:url(images/slider_caption_bg.png) repeat;color: #303030;}
+.flex-caption h2{ color:#303030;font-size:20px; padding:5px 0 5px 0; margin:auto;font-family: 'Ovo', serif;}
 
 .flex-container a:active,
 .flexslider a:active {outline: none;}
@@ -48,11 +48,11 @@ html[xmlns] .slides {display: block;}
 /* Media Queries
 /*-----------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width:200px)and (max-width: 800px) {
 .slider_container{ width:90%; margin:0 0 0 2%; clear:both; background:none; padding:30px 0 0 0;}
 .flexslider {width: 100%; margin: 0; padding:0 0 30px 0;background:none;}
-.flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: absolute; right:-10px; cursor: pointer; text-indent: -9999px;}
-.flex-direction-nav li a.next {background:url(images/next.png) no-repeat center; bottom:85px;}
-.flex-direction-nav li a.prev {background:url(images/prev.png) no-repeat center;bottom:40px;}
+.flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: relative; right:-10px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background:url(images/next.png) no-repeat center; bottom:85px; width: 10%; height: 10%;}
+.flex-direction-nav li a.prev {background:url(images/prev.png) no-repeat center; bottom:40px; width: 10%; height: 10%;}
 .flex-caption { display:none;}
 }

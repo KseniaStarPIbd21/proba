@@ -10,7 +10,7 @@
  <?php include 'header.php' ?>
  
 </header>
-<p>Данная страница пока находится в разработке. </p>
+<p> Бронь произведена. </p>
 
 <?php include 'footer.php' ?>
 </body>

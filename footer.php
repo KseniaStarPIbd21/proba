@@ -1,6 +1,3 @@
 ﻿
- <div id="footer"> All rights reserved. 2017
-  <!--  <div id ="rights">
-    <a>All rights reserved. 2017</a>
-    </div>-->
-</div>
+ <div id="footer"> All rights reserved. 2017</div>
+ <div id = "toTop" > ^ Наверх </div >
